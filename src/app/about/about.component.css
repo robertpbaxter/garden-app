@@ -1,15 +1,24 @@
 .contactbox {
     margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 35%;
     padding-bottom: 25px;
     text-align: center;
-    border: solid 3px #53586b;
+    border: solid 3px #3e4150;
     width: 25%;
     background-image: url('../../assets/pictures/grass.jpg');
     background-size: cover;
+    border-radius: 3em;
+
 }
 
-.contacttitle {
+.contactme {
     font-size: 25pt;
     color: #53586b;
+}
+
+.form-control {
+    width: 60%;
+    font-size: 12pt;
 }
 
