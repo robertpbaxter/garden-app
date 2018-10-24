@@ -1,0 +1,14 @@
+.products {
+    background-color: rgba(22, 27, 30, 0.7);
+    font-size: 16pt;
+    color: #d1d1d1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 3%;
+    margin-right: 3%;
+  
+}
+
+.productdata {
+    margin: 3%;
+}
