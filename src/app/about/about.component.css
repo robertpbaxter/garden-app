@@ -1,0 +1,15 @@
+.contactbox {
+    margin-top: 5%;
+    padding-bottom: 25px;
+    text-align: center;
+    border: solid 3px #53586b;
+    width: 25%;
+    background-image: url(https://files.slack.com/files-pri/TC9T47GJV-FDLSLSRSL/maddy-baker-419406-unsplash.jpg);
+    background-size: cover;
+}
+
+.contacttitle {
+    font-size: 25pt;
+    color: #53586b;
+}
+
