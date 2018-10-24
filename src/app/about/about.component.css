@@ -14,7 +14,7 @@
 
 .contactme {
     font-size: 25pt;
-    color: #e3e4e6;
+    color: #d1d1d1;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -22,6 +22,8 @@
 .form-control {
     width: 60%;
     font-size: 12pt;
+   background-color: #d1d1d1;
+
 }
 
 .about {
@@ -30,7 +32,7 @@
     padding-top: 2%;
     color: black;
     font-family: 'Roboto', sans-serif;
-    color: #e3e4e6;
+    color: #d1d1d1;
     font-weight: 400;
 }
 
@@ -39,7 +41,7 @@ p {
     margin-right: 3%;
     color: black;
     font-family: 'Roboto', sans-serif;
-    color: #e3e4e6;
+    color: #d1d1d1;
     font-weight: lighter;
     font-stretch: expanded;
     font-size: 1.4em;
