@@ -7,14 +7,14 @@
     text-align: center;
     /* border: solid 3px #3e4150; */
     width: 25%;
-   background-color: rgba(191, 174, 164, 0.562);
-    border-radius: 3em;
+    background-color: rgba(22, 27, 30, 0.678);
+    border-radius: 2em;
     cursor: pointer;
 }
 
 .contactme {
     font-size: 25pt;
-    color: white;
+    color: #e3e4e6;
 }
 
 .form-control {
@@ -25,9 +25,29 @@
 .about {
     margin-left: 1%;
     font-size: 30pt;
+    padding-top: 2%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    color: #e3e4e6;
+
 }
 
 p {
     margin-left: 3%;
     margin-right: 3%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    color: #e3e4e6;
+    font-weight: lighter;
+    font-stretch: expanded;
+    font-size: 1.4em;
+
+}
+
+.aboutpage {
+    background-color: rgba(22, 27, 30, 0.678);
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 2em;
 }
