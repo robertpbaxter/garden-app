@@ -6,9 +6,20 @@
     font-weight: 400;
     margin-left: 3%;
     margin-right: 3%;
-  
+    padding: 5px;
 }
 
 .productdata {
     margin: 3%;
+}
+
+.id {
+    background-color: rgba(22, 27, 30, 0.877);
+    padding: 7px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Parisienne', cursive;
+    border: 2px solid rgb(22, 27, 30); 
+    border-radius: 50%;
+    text-align: center;
 }
