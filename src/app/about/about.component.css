@@ -3,18 +3,18 @@
     margin-bottom: 5%;
     margin-left: 35%;
     padding-bottom: 25px;
+    padding-top: 15px;
     text-align: center;
-    border: solid 3px #3e4150;
+    /* border: solid 3px #3e4150; */
     width: 25%;
-    background-image: url('../../assets/pictures/grass.jpg');
-    background-size: cover;
+   background-color: rgba(191, 174, 164, 0.562);
     border-radius: 3em;
-
+    cursor: pointer;
 }
 
 .contactme {
     font-size: 25pt;
-    color: #53586b;
+    color: white;
 }
 
 .form-control {
@@ -22,3 +22,12 @@
     font-size: 12pt;
 }
 
+.about {
+    margin-left: 1%;
+    font-size: 30pt;
+}
+
+p {
+    margin-left: 3%;
+    margin-right: 3%;
+}
