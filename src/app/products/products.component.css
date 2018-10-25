@@ -1,26 +1,22 @@
-.products {
-    background-color: rgba(22, 27, 30, 0.7);
-    font-size: 16pt;
-    color: #d1d1d1;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    margin-left: 3%;
-    margin-right: 3%;
-    padding: 5px;
+.productscard {
+   
+    transition: 0.3s;
+    width: 40%;
 }
 
-.productdata {
-    margin: 3%;
+.container {
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.479);
+    margin: 4%;
+    background-color: #2b5262;
+    color: #a7b6bc;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    width: 300px;
+    height: 300px;
+    float: left;
 }
 
 .id {
-    background-color: rgba(22, 27, 30, 0.877);
-    padding: 7px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    font-family: 'Parisienne', cursive;
-    border: 2px solid rgb(22, 27, 30); 
-    border-radius: 50%;
-    text-align: center;
-    font-weight: 800;
+    font-size: 16pt;
 }
