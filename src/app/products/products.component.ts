@@ -20,7 +20,7 @@ export class ProductsComponent implements OnInit {
   getProducts(): void {
     this.productService.getProducts().subscribe(products => {
       this.products = products;
-      console.log(products);
+      // console.log(products);
     });
   }
   delete(product: Product): void {
