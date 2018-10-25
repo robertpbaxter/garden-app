@@ -22,4 +22,6 @@ export class AuthComponent {
         console.log(localStorage.getItem("role"));
       });
   }
+
+
 }
