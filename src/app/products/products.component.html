@@ -7,10 +7,8 @@
         <p class='description'>{{product.product_description}}</p>
         <p class='price'>Price: ${{product.product_price}}</p>
         <p class='image'>{{product.product_image}}</p>
-        <button type="delete" value="product.id">{{ true ? "delete" : ""}} </button>
+        <button (click)="delete(product)" type="delete" value="product.id">Delete</button>
       </div>
     </div>
-  </div>
-</div>
 
 <!-- {{ localStorage.getItem ('role') === "admin"}} -->

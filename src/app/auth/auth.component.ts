@@ -15,8 +15,11 @@ export class AuthComponent {
     this.authService
       .login({ email, password } as User)
       .subscribe(credentials => {
-        this.token = credentials.token;
-        console.log(this.token);
+        localStorage.setItem("token", credentials.token);
+        localStorage.setItem("role", credentials.loggedInUser.role);
+        // localStorage.setItem("role", credentials.loggedInUser.role);
+        console.log(localStorage.getItem("token"));
+        console.log(localStorage.getItem("role"));
       });
   }
 
