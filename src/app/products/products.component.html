@@ -1,13 +1,14 @@
-<div class="productscard">
-  <div *ngFor="let product of products" class="container">
-    <h4 class="id">{{product.id}} </h4>
-    <h4 class="productName"> {{product.product_name}}</h4>
-    <p class='description'>{{product.product_description}}</p>
-    <p class='price'> {{product.product_price}}</p>
-    <p class='image'>{{product.product_image}}</p>
-    <button type="delete" value="product.id">{{ true ? "delete" : ""}} </button>
+<div class="card">
+  <div *ngFor="let product of products">
+    <div class="container">
+      <div class="details">
+        <h4 class="id">{{product.id}} </h4>
+        <h4 class="productName">Name: {{product.product_name}}</h4>
+        <p class='description'>{{product.product_description}}</p>
+        <p class='price'>Price: ${{product.product_price}}</p>
+        <p class='image'>{{product.product_image}}</p>
+        <button (click)="delete(product)" type="delete" value="product.id">Delete</button>
+      </div>
+    </div>
 
-  </div>
-</div>
-
-<!-- {{ localStorage.getItem ('role') === "admin"}} -->
+    <!-- {{ localStorage.getItem ('role') === "admin"}} -->

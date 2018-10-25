@@ -22,8 +22,17 @@ export class ProductsComponent implements OnInit {
       console.log(products);
     });
   }
+<<<<<<< HEAD
   deleteProduct(product: Product): void {
     this.products = this.products.filter(p => p !== product);
     console.log(product);
+=======
+
+  isAdmin(): boolean {
+    let result: boolean
+    localStorage.getItem('role') === "admin" 
+    ? result= true : result= false
+    return result
+>>>>>>> 1b6d6b03aa67ace2dda3156062fad18271de9667
   }
 }
