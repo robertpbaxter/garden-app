@@ -13,10 +13,10 @@
 }
 
 .contactme {
-    font-size: 25pt;
+    font-size: 40pt;
     color: #d1d1d1;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Parisienne', cursive;
+    margin-bottom: -1px;
 }
 
 .form-control {
@@ -28,12 +28,12 @@
 
 .about {
     margin-left: 1%;
-    font-size: 30pt;
+    margin-bottom: -2%;
+    font-size: 50pt;
     padding-top: 2%;
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Parisienne', cursive;
     color: #d1d1d1;
-    font-weight: 400;
 }
 
 p {
