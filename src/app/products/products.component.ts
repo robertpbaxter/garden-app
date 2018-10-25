@@ -22,4 +22,8 @@ export class ProductsComponent implements OnInit {
       console.log(products);
     });
   }
+  deleteProduct(product: Product): void {
+    this.products = this.products.filter(p => p !== product);
+    console.log(product);
+  }
 }
