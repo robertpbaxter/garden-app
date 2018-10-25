@@ -1,3 +1,11 @@
-<p>
-  auth works!
-</p>
+<h2>Log in</h2>
+
+<div>
+  <label> Email
+    <input #email />
+  </label>
+  <label> Password
+    <input #password />
+  </label>
+  <button (click)=login(email.value,password.value)>Log in</button>
+</div>
