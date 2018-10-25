@@ -1,22 +1,40 @@
-.productscard {
-   
-    transition: 0.3s;
-    width: 40%;
+.card {
+    margin-top: 4em;
+    border-radius: 2em;
 }
 
 .container {
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.479);
-    margin: 4%;
+    margin: 2em;
     background-color: #2b5262;
     color: #a7b6bc;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-top: 2px;
-    width: 300px;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    width: 220px;
     height: 300px;
     float: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.details {
+    margin: 0.7em;
+    font-size: 0.9em;
 }
 
 .id {
-    font-size: 16pt;
+    font-size: 1.2 em;
+    font-family: "Parisienne", cursive
+}
+
+button{
+    background-color: #a74b41;
+    color: #212f3c;
+    border: #a74b41;
+    border-radius: 2em;
+    height: 3em;
+    width: 5em;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 1em;
 }

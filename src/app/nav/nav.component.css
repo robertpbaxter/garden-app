@@ -1,11 +1,18 @@
 nav {
     width: 100%;
-    background-color: #53586b;
-    color: #e3e4e6;
+    background-color: #212f3c;
+    color: #a7b6bc;
     font-size: 1.4em;
     height: 8vh;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    position: fixed;
+    top: 0;
+    /* margin-top: 1em; */
+}
+
+span{
+    margin-top: 1em;
 }
 
 /* ul {
@@ -25,7 +32,7 @@ li {
 } */
 
 nav a{
-    color: #e3e4e6;
+    color: #a7b6bc;
     text-align: center;
     margin: 1em 1.2em;
     text-decoration: none;
@@ -33,6 +40,6 @@ nav a{
 }
   
 nav a:hover {
-    color: white;
+    color: #a7817c;
     cursor: pointer;
 }
