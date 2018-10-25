@@ -13,8 +13,8 @@
     margin-top: 27vh;
     margin-bottom: 30.65vh;
     font-family: 'Parisienne', cursive;
-    text-shadow: 1px 1px rgba(255,255,255, 0.8);
-    color: #a7b6bc;
+    text-shadow: 1px 1px rgb(255,255,255);
+    color: rgb(255,255,255, 0.5);
     font-size: 3em;
 }
 
