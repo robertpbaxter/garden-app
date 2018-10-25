@@ -1,0 +1,50 @@
+.authform {
+    background-color: rgb(167,182,188, 0.9);
+    height: 35vh;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 20%;
+    border-radius: 2em;
+}
+
+.logtitle {
+    text-align: center;
+    font-size: 50pt;
+    padding-top: 2%;
+    font-family: 'Parisienne', cursive;
+    color: #212f3c;
+}
+
+.textbox {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    color: #212f3c;
+}
+
+.input {
+    height: 2vh;
+    margin-bottom: 2%;
+}
+
+button{
+    background-color:  #2b5262;
+    color: #a7b6bc;
+    border: #a74b41;
+    border-radius: 2em;
+    height: 3em;
+    width: 5em;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #a7817c;
+    color: #212f3c;
+    cursor: pointer
+}

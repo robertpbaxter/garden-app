@@ -1,11 +1,15 @@
-<h2>Log in</h2>
+<div class="authform">
+  <h2 class="logtitle">Log in</h2>
 
-<div>
-  <label> Email
-    <input #email />
-  </label>
-  <label> Password
-    <input #password />
-  </label>
-  <button (click)=login(email.value,password.value)>Log in</button>
+  <div class="textbox">
+    <label class="label">Email: 
+      <input #email class="input" />
+    </label>
+    <div>
+    <label class="label"> Password: 
+      <input #password class="input" />
+    </label>
+    </div>
+    <button (click)=login(email.value,password.value)>Log in</button>
+  </div>
 </div>
