@@ -7,6 +7,6 @@
         <p class='description'>{{product.product_description}}</p>
         <p class='price'>Price: ${{product.product_price}}</p>
         <p class='image'>{{product.product_image}}</p>
-        <button (click)="delete(product)" title='delete product' type="delete" value="product.id">Delete</button>
+        <button (click)="delete(product)" title='delete product' type="delete" value="product.id" [disabled]='!canDelete'>Delete</button>
       </div>
     </div>

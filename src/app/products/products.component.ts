@@ -9,11 +9,12 @@ import { ProductService } from "../product.service";
 })
 export class ProductsComponent implements OnInit {
   products: Product[];
-
+  canDelete: boolean = false;
   constructor(private productService: ProductService) {}
 
   ngOnInit() {
     this.getProducts();
+    this.isAdmin();
   }
 
   getProducts(): void {
@@ -26,10 +27,10 @@ export class ProductsComponent implements OnInit {
     this.products = this.products.filter(p => p !== product);
     this.productService.deleteProduct(product.id).subscribe();
   }
-  // isAdmin(): boolean {
-  //   let result: boolean
-  //   localStorage.getItem('role') === "admin"
-  //   ? result= true : result= false
-  //   return result
-  // }
+
+  isAdmin(): void {
+    localStorage.getItem("role") === "admin"
+      ? (this.canDelete = true)
+      : (this.canDelete = false);
+  }
 }

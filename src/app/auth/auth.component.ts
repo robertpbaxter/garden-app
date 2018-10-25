@@ -17,11 +17,9 @@ export class AuthComponent {
       .subscribe(credentials => {
         localStorage.setItem("token", credentials.token);
         localStorage.setItem("role", credentials.loggedInUser.role);
-        // localStorage.setItem("role", credentials.loggedInUser.role);
-        console.log(localStorage.getItem("token"));
-        console.log(localStorage.getItem("role"));
+        alert("Successfully logged in (buh gok).");
+        // console.log(localStorage.getItem("token"));
+        // console.log(localStorage.getItem("role"));
       });
   }
-
-
 }
