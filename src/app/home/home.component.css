@@ -10,14 +10,23 @@
 
 .home{
     text-align: center;
-    margin-top: 30.65vh;
+    margin-top: 27vh;
     margin-bottom: 30.65vh;
     font-family: 'Parisienne', cursive;
-    color: white;
+    text-shadow: 1px 1px rgba(255,255,255, 0.8);
+    color: #a7b6bc;
     font-size: 3em;
 }
 
-.one{
+img{
+    background-color: rgb(255,255,255, 0.95);
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-bottom: -130px;
+    height: 100px;
+}
+
+/* .one{
     background-color: #a7817c;
 }
 
@@ -47,4 +56,4 @@
 
 .eight{
     background-color: #212f3c;
-}
+} */
