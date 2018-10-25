@@ -1,0 +1,32 @@
+nav {
+    width: 100%;
+    height: 6vh;
+    background-color: #212f3c;
+    color: #a7b6bc;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0em;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin-top: 1em;
+    padding: 0;
+    overflow: hidden;
+    background-color: #212f3c;
+}
+
+li {
+    text-align: center;
+    list-style-type: none !important;
+    margin: 2em;
+    padding: 0;
+    background-color: #212f3c;
+    display: inline;
+}

@@ -1,0 +1,12 @@
+<div class="card">
+  <div *ngFor="let product of products">
+    <div class="container">
+      <div class="details">
+        <h4 class="id">{{product.id}} </h4>
+        <h4 class="productName">Name: {{product.product_name}}</h4>
+        <p class='description'>{{product.product_description}}</p>
+        <p class='price'>Price: ${{product.product_price}}</p>
+        <p class='image'>{{product.product_image}}</p>
+        <button (click)="delete(product)" title='delete product' type="delete" value="product.id" [disabled]='!canDelete'>Delete</button>
+      </div>
+    </div>

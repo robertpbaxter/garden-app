@@ -1,0 +1,15 @@
+<div class="authform">
+  <h2 class="logtitle">Log in</h2>
+
+  <div class="textbox">
+    <label class="label">Email:
+      <input #email class="input" />
+    </label>
+    <div>
+      <label class="label"> Password:
+        <input #password class="input" />
+      </label>
+    </div>
+    <button (click)=login(email.value,password.value) routerLink='/products'>Log in</button>
+  </div>
+</div>

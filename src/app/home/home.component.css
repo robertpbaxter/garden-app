@@ -1,0 +1,59 @@
+/* body {
+    background-image: url('../../assets/pictures/joshua-harris-507154-unsplash.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+} */
+
+.home{
+    text-align: center;
+    margin-top: 27vh;
+    margin-bottom: 30.65vh;
+    font-family: 'Parisienne', cursive;
+    text-shadow: 1px 1px rgb(255,255,255);
+    color: rgb(255,255,255, 0.5);
+    font-size: 3em;
+}
+
+img{
+    background-color: rgb(255,255,255, 0.95);
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-bottom: -130px;
+    height: 100px;
+}
+
+/* .one{
+    background-color: #a7817c;
+}
+
+.two{
+    background-color: #a74b41;
+}
+
+.three{
+    background-color: #5d7c83; 
+}
+
+.four{
+    background-color: #a7b6bc;
+}
+
+.five{
+    background-color: #2e4953;
+}
+
+.six{
+    background-color: #2b424d;
+}
+
+.seven{
+    background-color: #2b5262;
+}
+
+.eight{
+    background-color: #212f3c;
+} */

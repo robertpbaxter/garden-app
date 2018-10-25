@@ -1,0 +1,71 @@
+.contactbox {
+    margin-top: 5em;
+    margin-bottom: 5%;
+    margin-left: 35%;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-right: 5%;
+    text-align: right;
+    /* border: solid 3px #3e4150; */
+    width: 25%;
+    background-color: rgba(33, 47, 60, 0.7);
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.contactme {
+    font-size: 40pt;
+    color: #d1d1d1;
+    font-family: 'Parisienne', cursive;
+    margin-bottom: 1px;
+    text-align: center;
+    padding-left: 10%;
+}
+
+.control-group{
+    margin-top: 0.5em;
+}
+
+.form-control {
+    /* width: 60%; */
+    font-size: 12pt;
+    background-color: #d1d1d1;
+
+}
+
+.about {
+    margin-left: 1%;
+    margin-bottom: -2%;
+    font-size: 50pt;
+    padding-top: 2%;
+    font-family: 'Parisienne', cursive;
+    color: #212f3c;
+}
+
+p {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Roboto', sans-serif;
+    color: #212f3c;
+    font-weight: lighter;
+    font-stretch: expanded;
+    font-size: 1.4em;
+    float: left;
+}
+
+.aboutpage {
+    background-color: rgb(167,182,188, 0.9);
+    height: 110vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 2em;
+    margin-top: 5em;
+}
+
+img{
+    margin: 0.5em;
+    box-shadow: 1px 5px 9px 0 rgb(33,47,60 0.479);
+    border-radius: 1em;
+    float: right;
+    /* position: relative; */
+}
