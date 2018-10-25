@@ -22,4 +22,11 @@ export class ProductsComponent implements OnInit {
       console.log(products);
     });
   }
+
+  isAdmin(): boolean {
+    let result: boolean
+    localStorage.getItem('role') === "admin" 
+    ? result= true : result= false
+    return result
+  }
 }
