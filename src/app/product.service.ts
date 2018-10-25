@@ -12,10 +12,12 @@ export class ProductService {
   user: User;
   constructor(private http: HttpClient) {}
 
+  token: string = localStorage.getItem("token");
+
   httpOptions = {
     headers: new HttpHeaders({
       "Content-Type": "application/json",
-      Authorization: localStorage.getItem("token")
+      Authorization: this.token
     })
   };
 
@@ -33,15 +35,15 @@ export class ProductService {
   }
 
   getProducts(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.productUrl).pipe(
-      // tap(products => console.log(products)),
-      catchError(this.handleError("getProducts", []))
-    );
+    return this.http
+      .get<Product[]>(this.productUrl)
+      .pipe(catchError(this.handleError("getProducts", [])));
   }
 
-  deleteProduct(id: string): Observable<Product[]> {
+  deleteProduct(id: number): Observable<Product[]> {
+    console.log(this.token);
     return this.http
-      .delete<Product[]>(`${this.productUrl}/${id}`)
+      .delete<Product[]>(`${this.productUrl}/${id}`, this.httpOptions)
       .pipe(catchError(this.handleError("deleteProduct", [])));
   }
 }
